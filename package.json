@@ -1,0 +1,27 @@
+{
+  "name": "cors-proxy-server",
+  "version": "1.0.0",
+  "description": "Example of a proxy server to help web applications get past the cors policy.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cors-proxy-server"
+  },
+  "keywords": [
+    "axios",
+    "cors",
+    "proxy",
+    "express",
+    "origin"
+  ],
+  "author": "HurtigCodes",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
